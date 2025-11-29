@@ -1,7 +1,5 @@
 import api from "@/shared/services/core";
 
-
-
 const productService = {
   getAll: async () => {
     try {
