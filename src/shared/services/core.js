@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://api.example.com';
+const BASE_URL = 'https://fakestoreapi.com';
 
 const api = axios.create({
   baseURL: BASE_URL,
